@@ -103,7 +103,7 @@
 4	semeng	semeng	noun	nn	-	2	iobj	-	i-time
 5	,	,	punct	-	-	9	punct	-	-
 6	semere	semer	noun	nn	Poss=Yes	2	nsubj	-	-
-7	lakar	lakar	adv	md	Tense=Fut	8	advmod	-	-
+7	lakar	lakar	adv	md	-	8	advmod	-	-
 8	katampiang	tampi	verb	vb	Voice=Passive	2	ccomp	-	-
 9	teken	teken	adp	in	-	2	case	-	-
 10	ane	ane	adp	in	-	11	compound	-	-
@@ -704,7 +704,7 @@
 # teks = Genah jagate punika ring bongkol Gunung Mahamerune tanggu kelod.
 1	Genah	genah	noun	nn	-	2	nsubj	-	-
 2	jagate	jagat	noun	nn	Poss=Yes	0	root	-	-
-3	punika	nika	det	dt	PronType=Dem	2	dt	-	-
+3	punika	nika	det	dt	PronType=Dem	2	det	-	-
 4	ring	ring	adp	in	-	5	case	-	-
 5	bongkol	bongkol	noun	nn	-	2	nmod	-	-
 6	Gunung	gunung	noun	nn	-	7	compound	-	b-loc
