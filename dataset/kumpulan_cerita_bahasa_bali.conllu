@@ -6,93 +6,76 @@
 2	Karsa	Karsa	propn	nnp	-	6	nsubj	-	i-per
 3	ajaka	ajak	adp	in	-	4	case	-	-
 4	pianakne	pianak	noun	nn	Poss=Yes	6	nsubj	-	-
-5	muani	muani	noun	nn	-	4	nmod	-	-
+5	muani	muani	noun	nn	-	4	compound	-	-
 6	nanggap	nanggap	verb	vb	-	0	root	-	-
 7	upah	upah	noun	nn	-	6	obj	-	-
 8	ngae	gae	verb	vb	-	6	ccomp	-	-
-9	semer	semer	noun	nn	-	8	nmod	-	-
+9	semer	semer	noun	nn	-	8	obj	-	-
 10	ring	ring	adp	in	-	11	case	-	-
 11	sisin	sisin	noun	nn	-	12	compound	-	-
-12	rurunge	rurung	noun	nn	Poss=Yes	6	iobj	-	b-loc
+12	rurunge	rurung	noun	nn	Poss=Yes	8	nmod	-	b-loc
 13	gede	gede	adj	jj	-	12	amod	-	i-loc
 14	.	.	punct	-	-	6	punct	-	-
 
 # id_kalimat = 2
 # header = Anak Ririh
-# teks =  uli semeng maka sanja ia ajaka dadua tusing mareren megae, sajawaning dinuju madaarne.
+# teks =  uli semeng maka sanja ia ajaka dadua tusing mareren megae,
 1	uli	uli	adp	in	-	2	case	-	-
-2	semeng	semeng	noun	nn	-	8	iobj	-	b-time
+2	semeng	semeng	noun	nn	-	9	nmod	-	b-time
 3	maka	maka	adp	in	-	4	case	-	-
-4	sanja	sanja	noun	nn	-	8	iobj	-	b-time
+4	sanja	sanja	noun	nn	-	9	nmod	-	b-time
 5	ia	ia	pron	prp	-	9	nsubj	-	-
 6	ajaka	ajaka	adp	in	-	7	case	-	-
-7	dadua	dua	num	cd	-	5	nmod	-	-
+7	dadua	dua	num	cd	-	5	nummod	-	-
 8	tusing	tusing	adv	rb	Polarity=Neg	9	advmod	-	-
 9	mareren	reren	verb	vb	-	0	root	-	-
 10	megae	gae	verb	vb	-	9	obj	-	-
-11	,	,	punct	-	-	9	punct	-	-
-12	sajawaning	sajaba	adp	in	-	13	case	-	-
-13	dinuju	nuju	verb	vb	-	9	ccomp	-	-
-14	madaarne	daar	noun	nn	Poss=Yes	13	nmod	-	-
-15	.	.	punct	-	-	9	punct	-	-
+11	,	,	punct	-	-	10	punct	-	-
 
 # id_kalimat = 3
 # header = Anak Ririh
-# teks = kenehne apang enggal gegaene pragat, tur lantas nampi upahne
+# teks = kenehne apang enggal gegaene pragat,
 1	kenehne	keneh	noun	nn	Poss=Yes	2	nsubj	-	-
-2	apang	apang	adp	in	-	3	mark	-	-
+2	apang	apang	adp	in	-	3	case	-	-
 3	enggal	enggal	adj	jj	-	5	amod	-	-
-4	gegaene	gae	noun	nn	Poss=Yes	5	nsubj	-	-
+4	gegaene	gae	noun	nn	Poss=Yes	5	obj	-	-
 5	pragat	pragat	vb	-	-	0	root	-	-
 6	,	,	punct	-	-	5	punct	-	-
-7	tur	tur	adp	in	-	8	mark	-	-
-8	lantas	lantas	adv	rb	-	9	advmod	-	-
-9	nampi	nampi	verb	vb	-	5	ccomp	-	-
-10	upahne	upah	noun	nn	-	9	obj	-	-
-11	.	.	punct	-	-	5	punct	-	-
 
 # id_kalimat = 4
 # header = Anak Ririh
-# teks = telung dina ia magae tan parerenan, semere suba dalem, ngantiang pragat.
-1	telung	telu	num	cd	-	2	nmod	-	b-time
-2	dina	dina	noun	nn	-	4	iobj	-	i-time
+# teks = telung dina ia magae tan parerenan,
+1	telung	telu	num	cd	-	2	nummod	-	b-time
+2	dina	dina	noun	nn	-	4	nmod	-	i-time
 3	ia	ia	pron	prp	-	4	nsubj	-	-
 4	magae	gae	verb	vb	-	0	root	-	-
 5	tan	tan	adv	rb	Polarity=Neg	6	advmod	-	-
-6	parerenan	reren	verb	vb	-	4	ccomp	-	-
-7	,	,	punct	-	-	4	punct	-	-
-8	semere	semer	noun	nn	Poss=Yes	4	nsubj	-	-
-9	suba	suba	adv	rb	-	10	advmod	-	-
-10	dalem	dalem	adj	jj	-	8	amod	-	-
-11	,	,	punct	-	-	10	punct	-	-
-12	ngantiang	kanti	verb	vb	-	4	ccomp	-	-
-13	pragat	pragat	adj	jj	-	12	amod	-	-
-14	.	.	punct	-	-	4	punct	-	-
+6	parerenan	reren	noun	nn	Poss=Yes	4	nmod	-	-
+7	,	,	punct	-	-	6	punct	-	-
 
 # id_kalimat = 5
 # header = Anak Ririh
 # teks = Kendelne tara bakat ban nuturang
-1	Kendelne	kendel	noun	nn	-	5	nsubj	-	-
+1	Kendelne	kendel	noun	nn	-	5	obj	-	-
 2	tara	tara	adv	rb	Polarity=Neg	3	advmod	-	-
 3	bakat	bakat	adv	rb	-	5	advmod	-	-
 4	ban	ban	adv	md	-	5	advmod	-	-
-5	nuturang	tutur	verb	vb	-	0	root	-	-
+5	nuturang	tutur	verb	vb	Voice=Passive	0	root	-	-
 6	.	.	punct	-	-	5	punct	-	-
 
 # id_kalimat = 5
 # header = Anak Ririh
-# teks = Buin awai megae, pedas ia bakal nampi upah liu.
+# teks = Buin awai megae pedas ia bakal nampi upah liu.
 1	Buin	buin	adv	rb	-	2	advmod	-	-
-2	awai	wai	adv	rb	-	3	iobj	-	b-time
+2	awai	wai	num	md	-	3	nummod	-	b-time
 3	megae	gae	verb	vb	-	0	root	-	-
-4	,	,	punct	-	-	3	punct	-	-
-5	pedas	pedas	adj	jj	-	8	amod	-	-
-6	ia	ia	pron	prp	-	8	nsubj	-	-
-7	bakal	bakal	adv	rb	-	8	advmod	-	-
-8	nampi	tampi	verb	vb	-	3	ccomp	-	-
-9	upah	upah	noun	nn	-	8	obj	-	-
-10	liu	liu	adj	jj	-	9	amod	-	-
-11	.	.	punct	-	-	3	punct	-	-
+4	pedas	pedas	adj	jj	-	7	amod	-	-
+5	ia	ia	pron	prp	-	3	nsubj	-	-
+6	bakal	bakal	adv	rb	-	7	advmod	-	-
+7	nampi	tampi	verb	vb	-	3	ccomp	-	-
+8	upah	upah	noun	nn	-	7	obj	-	-
+9	liu	liu	adj	jj	-	8	amod	-	-
+10	.	.	punct	-	-	3	punct	-	-
 
 # id_kalimat = 6
 # header = Anak Ririh
