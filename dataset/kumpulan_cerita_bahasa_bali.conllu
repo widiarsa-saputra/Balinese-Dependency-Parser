@@ -1,4 +1,4 @@
-# id_kalimat = 1
+# id_kalimat = 0
 # header = Anak Ririh
 # header = Anak Ririh
 # teks = Pan Karsa ajaka pianakne muani nanggap upah ngae semer ring sisin rurunge gede.
@@ -17,7 +17,7 @@
 13	gede	gede	adj	jj	-	12	amod	-	i-loc
 14	.	.	punct	-	-	6	punct	-	-
 
-# id_kalimat = 2
+# id_kalimat = 1
 # header = Anak Ririh
 # teks =  uli semeng maka sanja ia ajaka dadua tusing mareren megae,
 1	uli	uli	adp	in	-	2	case	-	-
@@ -32,7 +32,7 @@
 10	megae	gae	verb	vb	-	9	obj	-	-
 11	,	,	punct	-	-	10	punct	-	-
 
-# id_kalimat = 3
+# id_kalimat = 2
 # header = Anak Ririh
 # teks = kenehne apang enggal gegaene pragat,
 1	kenehne	keneh	noun	nn	Poss=Yes	2	nsubj	-	-
@@ -42,7 +42,7 @@
 5	pragat	pragat	vb	-	-	0	root	-	-
 6	,	,	punct	-	-	5	punct	-	-
 
-# id_kalimat = 4
+# id_kalimat = 3
 # header = Anak Ririh
 # teks = telung dina ia magae tan parerenan,
 1	telung	telu	num	cd	-	2	nummod	-	b-time
@@ -53,10 +53,10 @@
 6	parerenan	reren	noun	nn	Poss=Yes	4	nmod	-	-
 7	,	,	punct	-	-	6	punct	-	-
 
-# id_kalimat = 5
+# id_kalimat = 4
 # header = Anak Ririh
 # teks = Kendelne tara bakat ban nuturang
-1	Kendelne	kendel	noun	nn	-	5	obj	-	-
+1	Kendelne	kendel	noun	nn	-	5	nsubj	-	-
 2	tara	tara	adv	rb	Polarity=Neg	3	advmod	-	-
 3	bakat	bakat	adv	rb	-	5	advmod	-	-
 4	ban	ban	adv	md	-	5	advmod	-	-
@@ -72,51 +72,44 @@
 4	pedas	pedas	adj	jj	-	7	amod	-	-
 5	ia	ia	pron	prp	-	3	nsubj	-	-
 6	bakal	bakal	adv	rb	-	7	advmod	-	-
-7	nampi	tampi	verb	vb	-	3	ccomp	-	-
+7	nampi	tampi	verb	vb	-	3	xcomp	-	-
 8	upah	upah	noun	nn	-	7	obj	-	-
 9	liu	liu	adj	jj	-	8	amod	-	-
 10	.	.	punct	-	-	3	punct	-	-
 
 # id_kalimat = 6
 # header = Anak Ririh
-# teks = Tan critanan manine semeng, semere lakar katampiang teken ane mupahang.
-1	Tan	tan	adv	rb	-	2	advmod	-	-
-2	critanan	crita	verb vb	vb	Voice=Passive	0	root	-	-
-3	manine	mani	noun	nn	-	2	iobj	-	b-time
-4	semeng	semeng	noun	nn	-	2	iobj	-	i-time
-5	,	,	punct	-	-	9	punct	-	-
-6	semere	semer	noun	nn	Poss=Yes	2	nsubj	-	-
-7	lakar	lakar	adv	md	-	8	advmod	-	-
-8	katampiang	tampi	verb	vb	Voice=Passive	2	ccomp	-	-
-9	teken	teken	adp	in	-	2	case	-	-
-10	ane	ane	adp	in	-	11	compound	-	-
-11	mupahang	upah	noun	nn	-	7	nmod	-	-
-12	.	.	punct	-	-	2	punct	-	-
+# teks = semere lakar katampiang teken ane mupahang.
+1	semere	semer	noun	nn	Poss=Yes	3	nsubj	-	-
+2	lakar	lakar	adv	md	-	3	advmod	-	-
+3	katampiang	tampi	verb	vb	Voice=Passive	0	root	-	-
+4	teken	teken	adp	in	-	5	compound	-	-
+5	ane	ane	adp	in	-	6	case	-	-
+6	mupahang	upah	noun	nn	Poss=Yes	8	obj	-	-
+7	.	.	punct	-	-	3	punct	-	-
 
 # id_kalimat = 7
 # header = Anak Ririh
 # teks = Petengne saget ujan bales pesan madulurang angin.
-1	Petengne	peteng	noun	nn	Poss=Yes	3	iobj	-	b-time
+1	Petengne	peteng	noun	nn	Poss=Yes	3	nmod	-	b-time
 2	saget	saget	adv	rb	-	3	advmod	-	-
 3	ujan	ujan	verb	vb	-	0	root	-	-
 4	bales	bales	adj	jj	-	3	amod	-	-
 5	pesan	pesan	adv	rb	-	4	advmod	-	-
 6	madulurang	madulur	adp	in	-	7	case	-	-
-7	angin	angin	noun	nn	-	3	nmod	-	-
+7	angin	angin	noun	nn	-	3	obj	-	-
 8	.	.	punct	-	-	3	punct	-	-
 
 # id_kalimat = 8
 # header = Anak Ririh
-# teks = Apeteng Pan Karsa tusing bisa pules ngenehang gegaene.
-1	Apeteng	peteng	noun	nn	-	6	iobj	-	b-time
+# teks = Apeteng Pan Karsa tusing bisa pules.
+1	Apeteng	peteng	noun	nn	-	6	nmod	-	b-time
 2	Pan	Pan	propn	nnp	-	2	compound	-	-
 3	Karsa	Karsa	propn	nnp	-	6	nsubj	-	-
 4	tusing	tusing	adv	rb	Polarity=Neg	6	advmod	-	-
-5	bisa	bisa	verb	vb	-	6	xcomp	-	-
-6	pules	pules	verb	vb	-	0	root	-	-
-7	ngenehang	keneh	verb	vb	-	6	xcomp	-	-
-8	gegaene	gae	noun	nn	Poss=Yes	7	obj	-	-
-9	.	.	punct	-	-	6	punct	-	-
+5	bisa	bisa	verb	vb	-	0	root	-	-
+6	pules	pules	verb	vb	-	5	xcomp	-	-
+7	.	.	punct	-	-	5	punct	-	-
 
 # id_kalimat = 9
 # header = Anak Ririh
@@ -130,20 +123,16 @@
 
 # id_kalimat = 10
 # header = Anak Ririh
-# teks = Manine nu ruput ia ajaka pianakne nelokin semere, sambilang ngaba tambah.
-1	Manine	mani	noun	nn	Poss=Yes	7	iobj	-	b-time
+# teks = Manine nu ruput ia ajaka pianakne nelokin semere,
+1	Manine	mani	noun	nn	Poss=Yes	7	nmod	-	b-time
 2	nu	nu	adv	rb	-	3	advmod	-	-
-3	ruput	ruput	noun	nn	-	7	iobj	-	b-time
+3	ruput	ruput	adj	jj	-	1	amod	-	b-time
 4	ia	ia	pron	prp	-	7	nsubj	-	-
 5	ajaka	ajak	adp	in	-	6	case	-	-
 6	pianakne	pianak	noun	nn	Poss=Yes	5	nmod	-	-
 7	nelokin	delok	verb	vb	-	0	root	-	-
 8	semere	semer	noun	nn	Poss=Yes	7	obj	-	-
-9	,	,	punct	-	-	7	punct	-	-
-10	sambilang	sambilang	adv	rb	-	11	advmod	-	-
-11	ngaba	aba	verb	vb	-	7	xcomp	-	-
-12	tambah	tambah	noun	nn	-	11	nmod	-	-
-13	.	.	punct	-	-	7	punct	-	-
+9	,	,	punct	-	-	8	punct	-	-
 
 # id_kalimat = 11
 # header = Anak Ririh
@@ -151,7 +140,7 @@
 1	Saja	saja	adj	jj	-	5	amod	-	-
 2	lantas	lantas	adv	rb	-	5	advmod	-	-
 3	semere	semer	noun	nn	-	5	nsubj	-	-
-4	bek	bek	adj	jj	-	3	amod	-	-
+4	bek	bek	adj	jj	-	6	amod	-	-
 5	aji	aji	verb	vb	0	root	root	-	-
 6	tanah	tanah	noun	nn	-	5	obj	-	-
 7	.	.	punct	-	-	5	punct	-	-
@@ -175,28 +164,20 @@
 
 # id_kalimat = 14
 # header = Anak Ririh
-# teks = Makelo ia bengong, mangenang kalacuran dewekne.
-1	Makelo	noun	noun	nn	-	3	iobj	-	b-time
+# teks = Makelo ia bengong, 
+1	Makelo	noun	noun	nn	-	3	nmod	-	b-time
 2	ia	ia	pron	prp	-	3	nsubj	-	-
 3	bengong	bengong	verb	vb	-	0	root	-	-
 4	,	,	punct	-	-	3	punct	-	-
-5	mangenang	angen	verb	vb	-	3	ccomp	-	-
-6	kalacuran	lacur	adj	jj	Degree=Neg	5	amod	-	-
-7	dewekne	dewek	noun	nn	Poss=Yes	5	nsubj	-	-
-8	.	.	punct	-	-	3	punct	-	-
 
 # id_kalimat = 15
 # header = Anak Ririh
-# teks = Nangingke ia ngalih daya, apanga gegaene aluhan.
-1	Nangingke	nanging	adp	in	-	2	mark	-	-
+# teks = Nangingke ia ngalih daya, 
+1	Nangingke	nanging	adp	in	-	2	case	-	-
 2	ia	ia	pron	prp	-	3	nsubj	-	-
 3	ngalih	alih	verb	vb	-	0	root	-	-
 4	daya	daya	noun	nn	-	3	obj	-	-
-5	,	,	punct	-	-	3	punct	-	-
-6	apanga	apang	adp	in	-	7	mark	-	-
-7	gegaene	gae	noun	nn	Poss=Yes	3	iobj	-	-
-8	aluhan	aluh	adj	jj	-	7	amod	-	-
-9	.	.	punct	-	-	3	punct	-	-
+5	,	,	punct	-	-	4	punct	-	-
 
 # id_kalimat = 16
 # header = Anak Ririh
@@ -210,50 +191,43 @@
 
 # id_kalimat = 17
 # header = Anak Ririh
-# teks = "Ih cening, de cai keweh, buin akejep dong ilang tanahne ane ngurugin semere ne."
+# teks = "buin akejep dong ilang tanahne ane ngurugin semere ne."
 1	"	"	punct	-	-	2	punct	-	-
-2	Ih	Ih	intj	-	-	3	voc	-	-
-3	cening	cening	noun	nn	-	6	nmod	-	-
-4	,	,	punct	-	-	3	punct	-	-
-5	de	de	adv	rb	-	7	advmod	-	-
-6	cai	cai	pron	prp	-	7	nsubj	-	-
-7	keweh	keweh	adj	jj	Degree=Neg	5	amod	-	-
-8	,	,	punct	-	-	7	punct	-	-
-9	buin	buin	adv	rb	-	10	advmod	-	-
-10	akejep	kejep	noun	nn	-	12	nsubj	-	b-time
-11	dong	dong	adj	jj	-	12	amod	-	-
-12	ilang	ilang	verb	vb	-	0	root	-	-
-13	tanahne	tanah	noun	nn	Poss=Yes	12	obj	-	-
-14	ane	ane	adp	in	-	15	case	-	-
-15	ngurugin	urug	verb	vb	-	12	iobj	-	-
-16	semere	semer	noun	nn	Poss=Yes	15	obj	-	-
-17	ne	ne	det	dt	PronType=Dem	16	det	-	-
-18	.	.	punct	-	-	12	punct	-	-
-19	"	"	punct	-	-	18	punct	-	-
+2	buin	buin	adv	rb	-	3	advmod	-	-
+3	akejep	kejep	noun	nn	-	5	nsubj	-	b-time
+4	dong	dong	adj	jj	-	5	amod	-	-
+5	ilang	ilang	verb	vb	-	0	root	-	-
+6	tanahne	tanah	noun	nn	Poss=Yes	5	obj	-	-
+7	ane	ane	adp	in	-	8	case	-	-
+8	ngurugin	urug	verb	vb	-	5	ccomp	-	-
+9	semere	semer	noun	nn	Poss=Yes	9	obj	-	-
+10	ne	ne	det	dt	PronType=Dem	9	det	-	-
+11	.	.	punct	-	-	5	punct	-	-
+12	"	"	punct	-	-	2	punct	-	-
 
 # id_kalimat = 18
 # header = Anak Ririh
 # teks = Ditu lantas Pan Karsa ngantungan baju muah capilne ditongose ngantungan buka ane suba-suba.
-1	Ditu	ditu	pron	prp	-	9	iobj	-	-
-2	lantas	lantas	noun	nn	-	5	nmod	-	-
+1	Ditu	ditu	pron	prp	-	5	nmod	-	-
+2	lantas	lantas	adv	rb	-	3	advmod	-	-
 3	Pan	Pan	propn	nnp	-	4	compund	-	-
 4	Karsa	Karsa	propn	nnp	-	5	nsubj	-	-
 5	ngantungan	gantung	verb	vb	-	0	root	-	-
 6	baju	baju	noun	nn	-	5	obj	-	-
 7	muah	muah	adv	in	-	8	case	-	-
 8	capilne	capil	noun	nn	Poss=Yes	5	obj	-	-
-9	ditongose	tongos	noun	nn	Poss=Yes	5	iobj	-	b-loc
-10	ngantungan	gantung	verb	vb	-	5	ccomp	-	i-loc
+9	ditongose	tongos	noun	nn	Poss=Yes	5	nmod	-	b-loc
+10	ngantungan	gantung	verb	vb	-	5	xcomp	-	i-loc
 11	buka	buka	adp	in	-	12	compound	-	-
 12	ane	ane	adp	in	-	13	case	-	-
-13	suba-suba	suba	adv	rb	-	10	advmod	-	-
+13	suba-suba	suba	noun	nn	-	9	nmod	-	-
 14	.	.	punct	-	-	5	punct	-	-
 
 # id_kalimat = 19
 # header = Anak Ririh
 # teks = Pianakne masih nuutang tingkah bapakne
 1	Pianakne	pianak	noun	nn	Poss=Yes	3	nsubj	-	-
-2	masih	masih	adv	rb	3	advmod	advmod	-	-
+2	masih	masih	adv	rb	3	3	advmod	-	-
 3	nuutang	tuut	verb	vb	-	0	root	-	-
 4	tingkah	tingkah	noun	nn	-	3	iobj	-	-
 5	bapakne	bapak	noun	nn	Poss=Yes	3	obj	-	-
@@ -261,240 +235,118 @@
 
 # id_kalimat = 20
 # header = Anak Ririh
-# teks = Buine tambahe ane besikan bantangne tancebange ka tanahe ane ngurugin semere, muah ane lenan pejanga di sisin semere, suud keto lantas kalahine mengkeb.
+# teks = Buine tambahe ane besikan bantangne tancebange ka tanahe ane ngurugin semere, 
 1	Buine	buin	adv	rb	-	6	advmod	-	-
 2	tambahe	tambah	noun	nn	Poss=Yes	6	nsubj	-	-
-3	ane	ane	adp	in	-	4	mark	-	-
-4	besikan	besik	noun	nn	Poss=Yes	5	compound	-	-
-5	bantangne	bantang	noun	nn	Poss=Yes	6	nmod	-	-
+3	ane	ane	adp	in	-	4	case	-	-
+4	besikan	besik	num	md	Poss=Yes	2	nummod	-	-
+5	bantangne	bantang	noun	nn	Poss=Yes	2	nmod	-	-
 6	tancebange	tanceb	verb	vb	Voice=Passive	0	root	-	-
 7	ka	ka	adp	in	-	8	case	-	-
 8	tanahe	tanah	noun	nn	Poss=Yes	6	obj	-	b-loc
-9	ane	ane	adp	in	-	10	mark	-	i-loc
+9	ane	ane	adp	in	-	10	case	-	i-loc
 10	ngurugin	urug	verb	vb	-	6	ccomp	-	-
-11	semere	semer	noun	nn	Poss=Yes	10	nmod	-	-
+11	semere	semer	noun	nn	Poss=Yes	10	obj	-	-
 12	,	,	punct	-	-	11	punct	-	-
-13	muah	muah	adp	in	-	14	compound	-	-
-14	ane	ane	adp	in	-	15	mark	-	-
-15	lenan	len	noun	nn	Poss=Yes	16	nsubj	-	-
-16	pejanga	jang	verb	vb	-	10	ccomp	-	-
-17	di	di	adp	in	-	18	case	-	-
-18	sisin	sisin	noun	nn	-	19	nmod	-	b-loc
-19	semere	semer	noun	nn	Poss=Yes	16	obj	-	i-loc
-20	,	,	punct	-	-	19	punct	-	-
-21	suud	suud	adj	jj	-	24	amod	-	-
-22	keto	pron	prp	prp	-	24	nmod 	-	-
-23	lantas	lantas	adv	rb	24	24	advmod	-	-
-24	kalahine	kalah	verb	vb	-	6	ccomp	-	-
-25	mengkeb	mengkeb	verb	vb	-	24	xcomp	-	-
-26	.	.	punct	-	-	6	punct	-	-
 
 # id_kalimat = 21
 # header = Anak Ririh
-# teks = Kacrita anake sane mentas ditu pada ngon, ningalin baju muah capil magantung paek semere, tur ane ngelahang tuara ada.
-1	Kacrita	crita	verb	vb	-	4	ccomp	-	-
+# teks = Kacrita anake sane mentas ditu pada ngon, 
+1	Kacrita	crita	verb	vb	-	4	xcomp	-	-
 2	anake	anak	noun	nn	Poss=Yes	4	nsubj	-	-
-3	sane	sane	adp	in	-	4	mark	-	-
+3	sane	sane	adp	in	-	4	case	-	-
 4	mentas	entas	verb	vb	-	0	root	-	-
 5	ditu	ditu	pron	prp	-	4	obj	-	-
 6	pada	pada	adv	rb	-	4	advmod	-	-
 7	ngon	ngon	adj	jj	-	4	amod	-	-
 8	,	,	punct	-	-	7	punct	-	-
-9	ningalin	tingal	verb	vb	-	4	ccomp	-	-
-10	baju	baju	noun	nn	-	9	obj	-	-
-11	muah	muah	adp	in	-	12	case	-	-
-12	capil	capil	noun	nn	-	9	obj	-	-
-13	magantung	gantung	verb	vb	-	9	ccomp	-	-
-14	paek	paek	adj	jj	-	13	amod	-	-
-15	semere	semer	noun	nn	Poss=Yes	13	obj	-	-
-16	,	,	punct	-	-	15	punct	-	-
-17	tur	tur	adp	in	-	18	compound	-	-
-18	ane	ane	adp	in	-	19	mark	-	-
-19	ngelahang	gelah	noun	nn	Poss=Yes	21	nsubj	-	-
-20	tuara	tuara	adv	rb	Polarity=Neg	21	advmod	-	-
-21	ada	ada	verb	vb	-	13	ccomp	-	-
-22	.	.	punct	-	-	4	punct	-	-
 
 # id_kalimat = 22
 # header = Anak Ririh
 # teks = Apa buin mara ajinanga ada tambah ditu.
 1	Apa	apa	pron	prp	-	4	nsubj	-	-
-2	buin	buin	adv	rb	-	4	advmod	-	-
-3	mara	mara	noun	nn	-	4	nmod	-	-
+2	buin	buin	adv	rb	-	1	compound	-	-
+3	mara	mara	adv	rb	-	4	advmod	-	-
 4	ajinanga	ajin	verb	vb	-	0	root	-	-
 5	ada	ada	verb	vb	-	4	xcomp	-	-
 6	tambah	tambah	noun	nn	-	4	obj	-	-
-7	ditu	ditu	pron	prp	-	4	iobj	-	-
+7	ditu	ditu	pron	prp	-	4	nmod	-	-
 8	.	.	punct	-	-	4	punct	-	-
-
-# id_kalimat = 23
-# header = Anak Ririh
-# teks = alihina tusing ada, kauk-kaukina tara ada masaut.
-1	alihina	alih	verb	vb	-	3	nsubj	-	-
-2	tusing	tusing	adv	rb	Polariy=Neg	3	advmod	-	-
-3	ada	ada	verb	vb	-	0	root	-	-
-4	,	,	punct	-	-	3	punct	-	-
-5	kauk-kaukina	kauk	verb	vb	Voice=Passive	7	nsubj	-	-
-6	tara	tara	adv	rb	-	7	advmod	-	-
-7	ada	ada	verb	vb	-	3	ccomp	-	-
-9	masaut	saut	verb	vb	-	7	xcomp	-	-
-10	.	.	punct	-	-	3	punct	-	-
 
 # id_kalimat = 24
 # header = Anak Ririh
-# teks = Sayan makelo sayan liu anake pada kema tur pada ngenehang, anake ane ngae semere kaurugan ban tanah ditu.
+# teks = Sayan liu anake pada kema tur pada ngenehang, 
 1	Sayan	sayan	adv	rb	-	2	advmod	-	-
-2	makelo	makelo	adj	jj	-	10	amod	-	-
-3	sayan	sayan	adv	rb	-	4	advmod	-	-
-4	liu	liu	adj	jj	-	5	amod	-	-
-5	anake	anak	noun	nn	Poss=Yes	10	nsubj	-	-
-6	pada	pada	adv	rb	-	7	advmod	-	-
-7	kema	kema	adv	rb	-	8	advmod	-	-
-8	tur	tur	adp	in	-	9	case	-	-
-9	pada	pada	adv	rb	-	10	advmod	-	-
-10	ngenehang	keneh	verb	vb	-	0	root	-	-
-11	,	,	punct	-	-	10	punct	-	-
-12	anake	anak	noun	nn	Poss=Yes	14	nsubj	-	-
-13	ane	ane	adp	in	-	14	mark	-	-
-14	ngae	gae	verb	vb	-	10	ccomp	-	-
-15	semere	semer	noun	nn	Poss=Yes	14	obj	-	-
-16	kaurugan	urug	verb	vb	Voice=Passive	14	ccomp	-	-
-17	ban	ban	adp	in	-	18	case	-	-
-18	tanah	tanah	noun	nn	-	16	obj	-	-
-19	ditu	ditu	pron	prp	-	16	iobj	-	-
-20	.	.	punct	-	-	10	punct	-	-
+2	liu	liu	adj	jj	-	3	amod	-	-
+3	anake	anak	noun	nn	Poss=Yes	10	nsubj	-	-
+4	pada	pada	adv	rb	-	7	compound	-	-
+5	kema	kema	adv	rb	-	8	advmod	-	-
+6	tur	tur	adp	in	-	9	case	-	-
+7	pada	pada	adv	rb	-	8	advmod	-	-
+8	ngenehang	keneh	verb	vb	-	0	root	-	-
+9	,	,	punct	-	-	8	punct	-	-
 
 # id_kalimat = 25
 # header = Anak Ririh
-# teks = Lantas sahasa nyemak tambah, pada numbegin semere ento.
+# teks = Lantas sahasa nyemak tambah, 
 1	Lantas	lantas	noun	nn	-	3	nsubj	-	-
-2	sahasa	sahasa	adv	rb	-	3	advmod	-	-
+2	sahasa	sahasa	adj	jj	-	3	amod	-	-
 3	nyemak	jemak	verb	vb	-	0	root	-	-
 4	tambah	tambah	noun	nn	-	3	obj	-	-
 5	,	,	punct	-	-	4	punct	-	-
-6	pada	pada	adv	rb	-	7	advmod	-	-
-7	numbegin	tumbeg	verb	vb	-	3	ccomp	-	-
-8	semere	semer	noun	nn	Poss=Yes	7	obj	-	-
-9	ento	ento	pron	prp	-	7	iobj	-	-
-10	.	.	punct	-	-	3	punct	-	-
-
-# id_kalimat = 26
-# header = Anak Ririh
-# teks = Tanahne kagediang.
-1	Tanahne	tanah	noun	nn	Poss=Yes	2	nsubj	-	-
-2	kagediang	gedi	verb	vb	Voice=Passive	0	root	-	-
-3	.	.	punct	-	-	2	punct	-	-
 
 # id_kalimat = 27
 # header = Anak Ririh
-# teks = Baan liu anake magae, buina tanahne gebuh, dadiannya tuara makelo semere ento suba kedas buka ibine.
-1	Baan	baan	adp	in	-	2	mark	-	-
-2	liu	liu	adj	jj	-	4	amod	-	-
-3	anake	anak	noun	nn	Poss=Yes	4	nsubj	-	-
-4	magae	gae	verb	vb	-	0	root	-	-
-5	,	,	punct	-	-	4	punct	-	-
-6	buina	buin	verb	vb	-	4	ccomp	-	-
-7	tanahne	tanah	noun	nn	Poss=Yes	6	nsubj	-	-
-8	gebuh	gebuh	adj	jj	-	6	amod	-	-
-9	,	,	punct	-	-	8	punct	-	-
-10	dadiannya	dadi	adp	in	-	11	mark	-	-
-11	tuara	tuara	adv	rb	-	12	advmod	-	-
-12	makelo	makelo	adj	jj	-	6	amod	-	-
-13	semere	semer	noun	nn	Poss=Yes	12	obj	-	-
-14	ento	ento	pron	prp	-	12	iobj	-	-
-15	suba	suba	adv	rb	-	12	advmod	-	-
-16	kedas	kedas	adj	jj	-	12	amod	-	-
-17	buka	buka	adp	in	-	18	case	-	-
-18	ibine	ibi	noun	nn	Poss=Yes	16	iobj	-	b-time
-19	.	.	punct	-	-	4	punct	-	-
+# teks = dadiannya tuara makelo semere ento suba kedas buka ibine.
+1	dadiannya	dadi	adp	in	-	2	case	-	-
+2	tuara	tuara	adv	rb	-	3	advmod	-	-
+3	makelo	makelo	adj	jj	-	4	amod	-	-
+4	semere	semer	noun	nn	Poss=Yes	7	nsubj	-	-
+5	ento	ento	det	dt	-	4	det	-	-
+6	suba	suba	adv	rb	-	12	advmod	-	-
+7	kedas	kedas	adj	jj	-	0	root	-	-
+8	buka	buka	adp	in	-	9	case	-	-
+9	ibine	ibi	noun	nn	Poss=Yes	7	nmod	-	b-time
+10	.	.	punct	-	-	7	punct	-	-
 
 # id_kalimat = 28
 # header = Anak Ririh
-# teks = Ditu Pan Karsa malaib-laib tur ngomong, "Inggih jerone sareng sami, tiang nunas pisan ring jerone sane paicaang ring tiang."
-1	Ditu	ditu	pron	prp	-	4	iobj	-	-
+# teks = Ditu Pan Karsa malaib-laib tur ngomong, 
+1	Ditu	ditu	pron	prp	-	4	nmod	-	-
 2	Pan	Pan	propn	nnp	-	3	compound	-	b-per
 3	Karsa	Karsa	propn	nnp	-	4	nsubj	-	i-per
 4	malaib-laib	laib	verb	vb	-	0	root	-	-
 5	tur	tur	adp	in	6	6	case	-	-
-6	ngomong	ngomong	verb	vb	-	4	ccomp	-	-
+6	ngomong	ngomong	verb	vb	-	4	xcomp	-	-
 7	,	,	punct	-	-	6	punct	-	-
-8	"	"	punct	-	-	9	punct	-	-
-9	Inggih	inggih	noun	nn	-	10	nmod	-	-
-10	jerone	jero	det	dt	-	15	det	-	-
-11	sareng	sareng	adv	rb	-	12	advmod	-	-
-12	sami	sami	num	cd	-	10	nmod	-	-
-13	,	,	punct	-	-	12	punct	-	-
-14	tiang	tiang	pron	prp	-	15	nsubj	-	-
-15	nunas	nunas	verb	vb	-	4	ccomp	-	-
-16	pisan	pisan	adv	rb	-	15	advmod	-	-
-17	ring	ring	adp	in	-	18	case	-	-
-18	jerone	jero	det	dt	-	15	obj	-	-
-19	sane	ane	adp	in	-	15	mark	-	-
-20	paicaang	ica	verb	vb	-	15	ccomp	-	-
-21	ring	ring	adp	in	-	22	case	-	-
-22	tiang	tiang	pron	prp	-	20	obj	-	-
-23	.	.	punct	-	-	4	punct	-	-
-24	"	"	punct	-	-	23	punct	-	-
 
 # id_kalimat = 29
 # header = Angsa teken Kerkuak
-# teks = Ada katuturan satua I Angsa masawitra teken I Kerkuak.
-1	Ada	ada	verb	vb	-	0	root	-	-
-2	katuturan	tutur	noun	nn	Poss=Yes	1	nsubj	-	-
-3	satua	satua	noun	nn	-	1	obj	-	-
-4	I	I	det	dt	PronType=Art	5	det	-	b-per
-5	Angsa	angsa	noun	nn	-	6	nsubj	-	i-per
-6	masawitra	sawitra	verb	vb	-	1	ccomp	-	-
-7	teken	teken	adp	in	-	8	case	-	-
-8	I	I	det	dt	PronType=Art	9	det	-	b-per
-9	Kerkuak	Kerkuak	noun	nn	-	6	obj	-	i-per
-10	.	.	punct	-	-	1	punct	-	-
+# teks = I Angsa masawitra teken I Kerkuak.
+1	I	I	det	dt	PronType=Art	2	det	-	b-per
+2	Angsa	angsa	noun	nn	-	3	nsubj	-	i-per
+3	masawitra	sawitra	verb	vb	-	0	root	-	-
+4	teken	teken	adp	in	-	5	case	-	-
+5	I	I	det	dt	PronType=Art	6	det	-	b-per
+6	Kerkuak	Kerkuak	noun	nn	-	3	obj	-	i-per
+7	.	.	punct	-	-	3	punct	-	-
 
 # id_kalimat = 30
 # header = Angsa teken Kerkuak
 # teks = Sadina-dina I Angsa teken I Kerkuak setata bareng-bareng ngalih amah ka tegale.
-1	Sadina-dina	dina	noun	nn	-	2	nmod	-	-
+1	Sadina-dina	dina	noun	nn	-	9	nmod	-	b-time
 2	I	I	det	dt	PronType=Art	3	det	-	b-per
 3	Angsa	angsa	noun	nn	-	9	nsubj	-	i-per
-4	teken	teken	adp	in	-	5	case	-	-
+4	teken	teken	adp	in	-	6	case	-	-
 5	I	I	det	dt	PronType=Art	6	det	-	b-per
 6	Kerkuak	kerkuak	noun	nn	-	9	nsubj	-	i-per
 7	setata	setata	adv	rb	-	9	advmod	-	-
-8	bareng-bareng	bareng	adv	rb	-	9	advmod	-	-
+8	bareng-bareng	bareng	adv	rb	-	10	advmod	-	-
 9	ngalih	alih	verb	vb	-	0	root	-	-
 10	amah	amah	noun	nn	-	9	obj	-	-
 11	ka	ka	adp	in	-	12	case	-	-
-12	tegale	tegal	noun	nn	Poss=Yes	9	iobj	-	b-loc
+12	tegale	tegal	noun	nn	Poss=Yes	9	nmod	-	b-loc
 13	.	.	punct	-	-	9	punct	-	-
-
-# id_kalimat = 31
-# header = Angsa teken Kerkuak
-# teks = Sakadi isin gumine "rwa bhineda" kaucap ada jele ada melah patuh teken solah I Angsa ngajak I Kerkuak matungkas pisan parilaksana nyane.
-1	Sakadi	sakadi	adp	in	-	2	case	-	-
-2	isin	isi	noun	nn	Poss=Yes	3	nmod	-	-
-3	gumine	gumi	noun	nn	Poss=Yes	8	nsubj	-	-
-4	"	"	punct	-	-	5	punct	-	-
-5	rwa	rwa	num	cd	-	8	obj	-	-
-6	bhineda	bhineda	adj	jj	-	5	amod	-	-
-7	"	"	punct	-	-	6	punct	-	-
-8	kaucap	ucap	verb	vb	Voice=Passive	0	root	-	-
-9	ada	ada	verb	vb	-	8	xcomp	-	-
-10	jele	jele	adj	jj	-	9	amod	-	-
-11	ada	ada	verb	vb	-	8	xcomp	-	-
-12	melah	melah	adj	jj	-	11	amod	-	-
-13	patuh	patuh	adj	jj	-	15	amod	-	-
-14	teken	teken	adp	in	-	15	case	-	-
-15	solah	solah	noun	nn	-	18	nmod	-	-
-16	I	I	det	dt	PronType=Art	17	det	-	b-per
-17	Angsa	angsa	noun	nn	-	18	nsubj	-	i-per
-18	ngajak	ajak	verb	vb	-	8	ccomp	-	-
-19	I	I	det	dt	PronType=Art	20	det	-	b-per
-20	Kerkuak	kerkuak	noun	nn	-	18	obj	-	i-per
-21	matungkas	tungkas	verb	vb	-	18	ccomp	-	-
-22	pisan	pisan	adv	rb	-	21	advmod	-	-
-23	parilaksana	laksana	noun	nn	Poss=Yes	21	nmod	-	-
-24	nyane	nyane	det	dt	PronType=Dem	23	det	-	-
-25	.	.	punct	-	-	8	punct	-	-
 
 # id_kalimat = 32
 # header = Angsa teken Kerkuak
@@ -511,170 +363,105 @@
 
 # id_kalimat = 33
 # header = Angsa teken Kerkuak
-# teks = Malenan teken I Kerkuak bikasnyane jele, demen ngai rusuh tur dayane liu.
-1	Malenan	len	verb	vb	-	0	root	-	-
-2	teken	teken	adp	in	-	3	case	-	-
+# teks = Malenan teken I Kerkuak bikasnyane jele,
+1	Malenan	len	adj	jj	-	5	amod	-	-
+2	teken	teken	adp	in	-	4	case	-	-
 3	I	I	det	dt	PronType=Art	4	det	-	b-per
-4	Kerkuak	kerkuak	noun	nn	-	1	nsubj	-	i-per
-5	bikasnyane	bikas	noun	nn	Poss=Yes	1	obj	-	-
-6	jele	jele	adj	jj	-	1	amod	-	-
-7	,	,	punct	-	-	8	punct	-	-
-8	demen	demen	verb	vb	-	9	xcomp	-	-
-9	ngae	gae	verb	vb	-	1	ccomp	-	-
-10	rusuh	rusuh	adj	jj	-	9	amod	-	-
-11	tur	tur	adp	in	-	12	case	-	-
-12	dayane	daya	noun	nn	Poss=Yes	9	nmod	-	-
-13	liu	liu	adj	jj	-	12	amod	-	-
-14	.	.	punct	-	-	1	punct	-	-
+4	Kerkuak	kerkuak	noun	nn	-	6	nsubj	-	i-per
+5	bikasnyane	bikas	noun	nn	Poss=Yes	6	obj	-	-
+6	jele	jele	adj	jj	-	0	root	-	-
+7	,	,	punct	-	-	6	punct	-	-
 
 # id_kalimat = 34
 # header = Angsa teken Kerkuak
-# teks = Sedek dina anu I Angsa paling ngalih amah-amahan sawireh di Tegale suba telah amah-amahane.
+# teks = Sedek dina anu I Angsa paling ngalih amah-amahan
 1	Sedek	sedek	noun	nn	-	2	compound	-	b-time
 2	dina	dina	noun	nn	-	3	compound	-	i-time
-3	anu	anu	num	cd	-	7	iobj	-	i-time
+3	anu	anu	num	cd	-	7	nmod	-	i-time
 4	I	I	det	cd	PronType=Art	5	det	-	b-per
 5	Angsa	angsa	noun	nn	-	7	nsubj	-	i-per
 6	paling	paling	adj	jj	Degree=Neg	7	amod	-	-
 7	ngalih	alih	verb	vb	-	0	root	-	-
 8	amah-amahan	amah	noun	nn	Poss=Yes	7	obj	-	-
-9	sawireh	sawireh	adp	in	-	7	mark	-	-
-10	di	di	adp	in	-	11	case	-	-
-11	Tegale	tegal	noun	nn	Poss=Yes	7	iobj	-	b-loc
-12	suba	suba	adv	rb	-	13	advmod	-	-
-13	telah	telah	adj	jj	-	14	amod	-	-
-14	amah-amahane	amah	noun	nn	Poss=Yes	11	nmod	-	-
-15	.	.	punct	-	-	7	punct	-	-
 
 # id_kalimat = 35
 # header = Angsa teken Kerkuak
-# teks = Kema lantas I Angsa ka Tukad Dangin Desa ditu ia nolih liu ada be.
-1	Kema	kema	adv	rb	-	11	iobj	-	-
-2	lantas	lantas	adv	rb	-	11	advmod	-	-
-3	I	I	det	dt	PronType=Art	4	det	-	b-per
-4	Angsa	angsa	noun	nn	-	11	nsubj	-	i-per
-5	ka	ka	adp	in	-	6	case	-	-
-6	Tukad	tukad	noun	nn	-	8	compund	-	b-loc
-7	Dangin	dangin	noun	nn	-	8	compound	-	i-loc
-8	Desa	desa	noun	nn	-	11	iobj	-	i-loc
-9	ditu	ditu	pron	prp	-	11	iobj	-	-
-10	ia	ia	pron	prp	-	11	nmod	-	-
-11	nolih	tolih	verb	vb	-	0	root	-	-
-12	liu	liu	adj	jj	-	11	amod	-	-
-13	ada	ada	verb	vb	-	11	ccomp	-	-
-14	be	be	noun	nn	-	11	obj	-	-
-15	.	.	punct	-	-	11	punct	-	-
+# teks = ditu ia nolih liu ada be.
+1	ditu	ditu	pron	prp	-	3	nmod	-	-
+2	ia	ia	pron	prp	-	3	nsubj	-	-
+3	nolih	tolih	verb	vb	-	0	root	-	-
+4	liu	liu	adj	jj	-	6	amod	-	-
+5	ada	ada	verb	vb	-	3	ccomp	-	-
+6	be	be	noun	nn	-	3	obj	-	-
+7	.	.	punct	-	-	3	punct	-	-
 
 # id_kalimat = 36
 # header = Angsa teken Kerkuak
 # teks = Makeneh lantas I Angsa ngajak I Kerkuak kema ka Tukad Dangin Desa ngalih amah-amahan.
-1	Makeneh	keneh	verb	vb	-	0	root	-	-
+1	Makeneh	keneh	verb	vb	-	2	compound	-	-
 2	lantas	lantas	adv	rb	-	1	advmod	-	-
 3	I	I	det	dt	PronType	4	det	-	b-per
-4	Angsa	angsa	noun	nn	-	5	nsubj	-	i-per
-5	ngajak	ajak	verb	vb	-	6	ccomp	-	-
+4	Angsa	angsa	noun	nn	-	13	nsubj	-	i-per
+5	ngajak	ajak	adp	in	-	7	case	-	-
 6	I	I	det	dt	PronType=Art	7	det	-	b-per
-7	Kerkuak	kerkuak	noun	nn	-	5	nsubj	-	i-per
-8	kema	kema	adv	rb	-	13	advmod	-	-
-9	ka	ka	adp	in	-	10	case	-	-
+7	Kerkuak	kerkuak	noun	nn	-	13	nsubj	-	i-per
+8	kema	kema	adv	rb	-	12	advmod	-	-
+9	ka	ka	adp	in	-	12	case	-	-
 10	Tukad	tukad	noun	nn	-	12	compound	-	b-loc
 11	Dangin	dangin	noun	nn	-	12	compound	-	i-loc
-12	Desa	desa	noun	nn	-	13	iobj	-	i-loc
+12	Desa	desa	noun	nn	-	13	nmod	-	i-loc
 13	ngalih	alih	verb	vb	-	0	root	-	-
 14	amah-amahan	amah	noun	nn	Poss=Yes	13	obj	-	-
-15	.	.	punct	-	-	14	punct	-	-
-
-# id_kalimat = 37
-# header = Angsa teken Kerkuak
-# teks = "We kerkuak di Tegale suba telah amah-amahane!, miwah bareng ajak icang kema ka Tukad Dangin Desa ngalih amah-amahan" keto munyine I Angsa.
-1	"	"	punct	-	-	2	punct	-	-
-2	We	We	intj	-	-	3	voc	-	-
-3	kerkuak	kerkuak	noub	nn	-	7	nsubj	-	b-per
-4	di	di	adp	in	-	5	case	-	-
-5	Tegale	tegal	noun	nn	Poss=Yes	7	iobj	-	b-loc
-6	suba	suba	adv	rb	-	7	advmod	-	-
-7	telah	telah	verb	vb	-	0	root	-	-
-8	amah-amahane	amah	noun	nn	-	7	obj	-	b-food
-9	!	!	punct	-	-	8	punct	-	-
-10	,	,	punct	-	-	11	punct	-	-
-11	miwah	miwah	adv	rb	-	15	advmod	-	-
-12	bareng	bareng	adv	rb	-	14	advmod	-	-
-13	ajak	ajak	verb	vb	-	7	ccomp	-	-
-14	icang	cang	pron	prp	-	15	nsubj	-	-
-15	kema	kema	verb	vb	-	7	ccomp	-	-
-16	ka	ka	adp	in	-	17	case	-	-
-17	Tukad	tukad	noun	nn	-	18	compound	-	b-loc
-18	Dangin	dangin	noun	nn	-	18	compound	-	i-loc
-19	Desa	desa	noun	nn	-	15	obj	-	i-loc
-20	ngalih	alih	verb	vb	-	15	ccomp	-	-
-21	amah-amahan	amah	noun	nn	Poss=Yes	20	nmod	-	-
-22	"	"	punct	-	-	21	punct	-	-
-23	keto	keto	pron	prp	-	20	nmod	-	-
-24	munyine	munyi	noun	nn	Poss=Yes	23	nmod	-	-
-25	I	I	det	dt	PronType=Art	26	det	-	b-per
-26	Angsa	angsa	noun	nn	-	24	nmod	-	i-per
-27	.	.	punct	-	-	7	punct	-	-
+15	.	.	punct	-	-	13	punct	-	-
 
 # id_kalimat = 38
 # header = Angsa teken Kerkuak
-# teks = "ye jeg ngepas sajaan basang icange suba seduk! mai enggalin kema!" nyaut I Kerkuak.
+# teks = "ye jeg ngepas sajaan basang icange suba seduk!"
 1	"	"	punct	-	-	2	punct	-	-
-2	ye	ye	intj	-	-	4	voc	-	-
-3	jeg	jeg	intj	-	-	4	voc	-	-
-4	ngepas	adj	jj	-	-	6	amod	-	-
-5	sajaan	saja	adv	rb	-	6	avmod	-	-
-6	basang	basang	noun	nn	-	9	nsubj	-	-
-7	icange	cang	pron	prp	-	6	nmod	-	-
-8	suba	suba	adv	rb	-	9	advmod	-	-
-9	seduk	seduk	verb	vb	-	0	root	-	-
-10	!	!	punct	-	-	9	punct	-	-
-11	mai	mai	adp	in	-	12	case	-	-
-12	enggalin	enggal	adj	jj	-	13	amod	-	-
-13	kema	kema	adv	rb	-	11	advmod	-	-
-14	!	!	punct	-	-	13	punct	-	-
-15	"	"	punct	-	-	14	punct	-	-
-16	nyaut	saut	verb	vb	-	9	ccomp	-	-
-17	I	I	det	dt	PronType=Art	18	det	-	b-per
-18	Kerkuak	kerkuak	noun	nn	-	16	nsubj	-	i-per
-19	.	.	punct	-	-	9	punct	-	-
+2	ngepas	adj	jj	-	-	4	amod	-	-
+3	sajaan	saja	adv	rb	-	2	advmod	-	-
+4	basang	basang	noun	nn	-	5	nmod	-	-
+5	icange	cang	pron	prp	-	7	nmod	-	-
+6	suba	suba	adv	rb	-	7	advmod	-	-
+7	seduk	seduk	verb	vb	-	0	root	-	-
+8	"	"	punct	-	-	2	punct	-	-
 
 # id_kalimat = 39
 # header = Angsa teken Kerkuak
-# teks = Disubane neked di Tukad Dangin Desa ditu lantas I Kerkuak nolih liu ada be.
-1	Disubane	suba	adp	in	-	2	case	-	-
-2	neked	neked	adp	in	-	3	case	-	-
-3	di	di	adp	in	-	4	case	-	-
+# teks = Disubane neked di Tukad Dangin Desa ditu lantas I Kerkuak nolih liu be.
+1	Disubane	suba	adp	in	-	10	case	-	-
+2	neked	neked	verb	vb	-	0	root	-	-
+3	di	di	adp	in	-	6	case	-	-
 4	Tukad	tukad	noun	nn	-	5	compound	-	b-loc
 5	Dangin	dangin	noun	nn	-	6	compound	-	i-loc
-6	Desa	desa	noun	nn	-	11	iobj	-	i-loc
-7	ditu	ditu	pron	prp	-	11	iobj	-	-
+6	Desa	desa	noun	nn	-	11	obj	-	i-loc
+7	ditu	ditu	pron	prp	-	11	nsubj	-	-
 8	lantas	lantas	adv	rb	-	11	advmod	-	-
 9	I	I	det	dt	-	10	det	-	b-per
-10	Kerkuak	kerkuak	noun	nn	-	11	nsubj	-	i-per
-11	nolih	tolih	verb	vb	-	0	root	-	-
-12	liu	liu	adj	jj	-	11	amod	-	-
-13	ada	ada	verb	vb	-	11	ccomp	-	-
-14	be	be	noun	nn	-	11	obj	-	b-food
-15	.	.	punct	-	-	11	punct	-	-
+10	Kerkuak	kerkuak	noun	nn	-	2	nsubj	-	i-per
+11	nolih	tolih	verb	vb	-	2	ccomp	-	-
+12	liu	liu	adj	jj	-	13	amod	-	-
+13	be	be	noun	nn	-	11	obj	-	b-food
+14	.	.	punct	-	-	2	punct	-	-
 
 # id_kalimat = 40
 # header = Arjuna Nangun Tapa
 # teks = Kacerita Sang Hyang Indra kalintang sungsut santukan Ida mireng orti Indraloka pacang kagebugin olih Niwatakawaca, ratun raksasane ring Manimantaka.
-1	Kacerita	crita	verb	vb	Voice=Passive	0	root	-	-
+1	Kacerita	crita	verb	vb	Voice=Passive	9	xcomp	-	-
 2	Sang	Sang	propn	nnp	-	4	compound	-	b-per
 3	Hyang	Hyang	propn	nnp	-	4	compound	-	i-per
-4	Indra	Indra	propn	nnp	-	6	nsubj	-	i-per
+4	Indra	Indra	propn	nnp	-	9	nsubj	-	i-per
 5	kalintang	lintang	adv	rb	-	6	advmod	-	-
-6	sungsut	sungsut	adj	jj	-	0	root	-	-
-7	santukan	santukan	adp	in	-	1	mark	-	-
-8	Ida	ida	pron	prp	-	9	nsubj	-	-
-9	mireng	pireng	verb	vb	-	6	ccomp	-	-
+6	sungsut	sungsut	adj	jj	-	4	amod	-	-
+7	santukan	santukan	adp	in	-	8	case	-	-
+8	Ida	ida	pron	prp	-	9	nmod	-	-
+9	mireng	pireng	verb	vb	-	0	root	-	-
 10	orti	orti	noun	nn	-	9	obj	-	-
-11	Indraloka	indraloka	pron	prp	-	13	obj	-	b-per
+11	Indraloka	indraloka	pron	prp	-	13	nsubj	-	b-per
 12	pacang	pacang	adv	rb	-	13	advmod	-	-
 13	kagebugin	gebug	verb	vb	Voice=Passive	9	ccomp	-	-
 14	olih	olih	adp	in	-	15	case	-	-
-15	Niwatakawaca	Niwatakawaca	propn	nnp	-	13	nsubj	-	b-per
+15	Niwatakawaca	Niwatakawaca	propn	nnp	-	13	obj	-	b-per
 16	,	,	punct	-	-	15	punct	-	-
 17	ratun	ratu	pron	prp	-	18	compound	-	-
 18	raksasane	raksasa	noun	nn	-	15	appos	-	-
@@ -682,32 +469,18 @@
 20	Manimantaka	Manimantaka	propn	nnp	-	13	nmod	-	b-loc
 21	.	-	-	-	-	-	-	-	- 
 
-# id_kalimat = 42
-# header = Arjuna Nangun Tapa
-# teks = Genah jagate punika ring bongkol Gunung Mahamerune tanggu kelod.
-1	Genah	genah	noun	nn	-	2	nsubj	-	-
-2	jagate	jagat	noun	nn	Poss=Yes	0	root	-	-
-3	punika	nika	det	dt	PronType=Dem	2	det	-	-
-4	ring	ring	adp	in	-	5	case	-	-
-5	bongkol	bongkol	noun	nn	-	2	nmod	-	-
-6	Gunung	gunung	noun	nn	-	7	compound	-	b-loc
-7	Mahamerune	Mahameru	propn	nnp	-	2	obj	-	i-loc
-8	tanggu	tanggu	adv	rb	-	2	advmod	-	-
-9	kelod	kelod	noun	nn	-	2	iobj	-	-
-10	.	.	punct	-	-	2	punct	-	-
-
 # id_kalimat = 43
 # header = Arjuna Nangun Tapa
 # teks = Niwatakawaca kalintang sakti dane polih panugrahan Sang Hyang Rudra,
-1	Niwatakawaca	Niwatakawaca	propn	nnp	-	3	nsubj	-	b-per
+1	Niwatakawaca	Niwatakawaca	propn	nnp	-	5	nsubj	-	b-per
 2	kalintang	kalintang	adv	rb	-	3	advmod	-	-
-3	sakti	sakti	adj	jj	-	0	root	-	-
-4	dane	dane	pron	prp	-	5	nsubj	-	-
-5	polih	polih	verb	vb	-	3	ccomp	-	-
+3	sakti	sakti	adj	jj	-	1	amod	-	-
+4	dane	dane	pron	prp	-	1	nmod	-	-
+5	polih	polih	verb	vb	-	0	root	-	-
 6	panugrahan	anugrah	noun	nn	-	5	obj	-	-
 7	Sang	Sang	propn	nnp	-	9	compound	-	b-per
 8	Hyang	Hyang	propn	nnp	-	9	compound	-	i-per
-9	Rudra	Rudra	propn	nnp	-	5	nmod	-	i-per
+9	Rudra	Rudra	propn	nnp	-	5	iobj	-	i-per
 10	,	,	punct	-	-	9	punct	-	-
 
 # id_kalimat = 44
@@ -728,8 +501,8 @@
 # id_kalimat = 47
 # header = Arjuna Nangun Tapa
 # teks = Nanging yan wenten manusa-manusa sakti,
-1	Nanging	nanging	adp	in	-	2	case	-	-
-2	yan	yan	adp	in	-	3	mark	-	-
+1	Nanging	nanging	adp	in	-	2	compound	-	-
+2	yan	yan	adp	in	-	3	case	-	-
 3	wenten	wenten	verb	vb	-	0	root	-	-
 4	manusa-manusa	manusa	noun	nn	Poss=Yes	3	obj	-	-
 5	sakti	sakti	adj	jj	-	3	amod	-	-
@@ -738,7 +511,7 @@
 # id_kalimat = 48
 # header = Arjuna Nangun Tapa
 # teks = mangda dane tangar ring urip.
-1	mangda	mangda	adp	in	-	3	mark	-	-
+1	mangda	mangda	adp	in	-	3	case	-	-
 2	dane	dane	pron	prp	-	3	nsubj	-	-
 3	tangar	tangar	verb	vb	-	0	root	-	-
 4	ring	ring	adp	in	-	5	case	-	-
@@ -749,7 +522,7 @@
 # header = Arjuna Nangun Tapa
 # teks = Irika punika karembugang olih Sang Hyang Indra kairing olih para Rsi kahyangane.
 1	Irika	irika	det	dt	-	2	compound	-	-
-2	punika	nika	det	dt	-	3	obj	-	-
+2	punika	nika	det	dt	-	3	nsubj	-	-
 3	karembugang	rembug	verb	vb	Voice=Passive	0	root	-	-
 4	olih	olih	adp	in	-	5	case	-	-
 5	Sang	Sang	propn	nnp	-	7	compound	-	b-per
@@ -758,9 +531,9 @@
 8	kairing	iring	verb	vb	Voice=Passive	3	ccomp	-	-
 9	olih	olih	adp	in	-	10	compound	-	-
 10	para	para	adp	in	-	11	case	-	-
-11	Rsi	Rsi	pron	prp	-	8	nsubj	-	-
-12	kahyangane	kahyangan	noun	nn	-	8	nmod	-	b-loc
-13	.	-	-	-	-	-	-	-	-
+11	Rsi	Rsi	pron	prp	-	8	obj	-	-
+12	kahyangane	kahyangan	noun	nn	-	8	iobj	-	-
+13	.	.	punct	-	-	3	punct	-	-
 
 # id_kalimat = 50
 # header = Arjuna Nangun Tapa
@@ -769,7 +542,7 @@
 2	ngrincikang	rincik	verb	vb	-	0	root	-	-
 3	upaya	upaya	noun	nn	-	2	obj	-	-
 4	pacang	pacang	adv	rb	-	5	advmod	-	-
-5	ngrereh	rereh	verb	vb	-	2	ccomp	-	-
+5	ngrereh	rereh	verb	vb	-	2	xcomp	-	-
 6	kanti	kanti	adp	in	-	7	case	-	-
 7	manusa	manusa	noun	nn	-	5	obj	-	-
 8	sakti	sakti	adj	jj	-	7	amod	-	-
@@ -778,10 +551,10 @@
 # id_kalimat = 51
 # header = Arjuna Nangun Tapa
 # teks = sane prasida ngaonang Niwatakawaca,
-1	sane	ane	adp	in	-	2	mark	-	-
+1	sane	ane	adp	in	-	2	case	-	-
 2	prasida	sida	verb	vb	-	0	root	-	-
 3	ngaonang	kaon	verb	vb	-	2	xcomp	-	-
-4	Niwatakawaca	Niwatakawaca	propn	nnp	-	2	obj	-	-
+4	Niwatakawaca	Niwatakawaca	propn	nnp	-	3	obj	-	-
 5	,	,	punct	-	-	4	punct	-	-
 
 # id_kalimat = 52
@@ -790,7 +563,7 @@
 1	pradene	prada	noun	nn	Poss=Yes	2	nsubj	-	-
 2	rauh	rauh	verb	vb	-	0	root	-	-
 3	ngebug	gebug	verb	vb	-	2	xcomp	-	-
-4	swargane	swarga	noun	nn	Poss=Yes	2	obj	-	b-loc
+4	swargane	swarga	noun	nn	Poss=Yes	3	obj	-	b-loc
 5	.	.	punct	-	-	2	punct	-	-
 
 # id_kalimat = 53
@@ -819,8 +592,8 @@
 3	pacang	pacang	adv	rb	-	4	advmod	-	-
 4	nunas	tunas	verb	vb	-	0	root	-	-
 5	kesaktian	sakti	noun	nn	Poss=Yes	4	obj	-	-
-6	mangda	mangda	adp	in	-	4	mark	-	-
-7	molih	polih	verb	vb	-	4	ccomp	-	-
+6	mangda	mangda	adp	in	-	7	case	-	-
+7	molih	polih	verb	vb	-	4	xcomp	-	-
 8	ring	ring	adp	in	-	9	case	-	-
 9	payudan	payudan	noun	nn	-	7	nmod	-	b-loc
 10	.	.	punct	-	-	4	punct	-	-
@@ -839,25 +612,25 @@
 # id_kalimat = 56
 # header = Arjuna Nangun Tapa
 # teks = mula sengka anake nangun yasa mangda sida mapikolih,
-1	mula	mula	adv	rb	-	4	advmod	-	-
+1	mula	mula	adv	rb	-	2	advmod	-	-
 2	sengka	sengka	adj	jj	-	3	amod	-	-
-3	anake	anak	noun	Poss=Yes	4	nsubj	-	-	-
+3	anake	anak	noun	nn	Poss=Yes	4	nsubj	-	-
 4	nangun	nangung	verb	vb	-	0	root	-	-
 5	yasa	yasa	noun	nn	-	4	obj	-	-
-6	mangda	mangda	adp	in	-	4	mark	-	-
-7	sida	sida	verb	vb	-	4	ccomp	-	-
+6	mangda	mangda	adp	in	-	4	case	-	-
+7	sida	sida	verb	vb	-	4	xcomp	-	-
 8	mapikolih	pikolih	verb	vb	-	7	xcomp	-	-
 9	,	,	punct	-	-	8	punct	-	-
 
 # id_kalimat = 57
 # header = Arjuna Nangun Tapa
 # teks = santukan gegodane kalintang akeh makadi pangliput wiyasan panca indrane.
-1	santukan	santukan	adp	in	-	3	mark	-	-
+1	santukan	santukan	adp	in	-	2	case	-	-
 2	gegodane	goda	noun	nn	Poss=yes	3	nsubj	-	-
 3	kalintang	lintang	verb	vb	-	0	root	-	-
 4	akeh	akeh	adj	jj	-	2	amod	-	-
 5	makadi	makadi	adp	in	-	6	case	-	-
-6	pangliput	pangliput	noun	nn	-	3	nmod	-	-
+6	pangliput	pangliput	noun	nn	-	7	compound	-	-
 7	wiyasan	wiyasan	noun	nn	-	3	obj	-	-
 8	panca	panca	num	md	-	9	compound	-	-
 9	indrane	indra	noun	nn	Poss=Yes	3	iobj	-	-
