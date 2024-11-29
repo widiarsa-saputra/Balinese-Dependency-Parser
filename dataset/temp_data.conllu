@@ -1,9 +1,9 @@
 # id_kalimat = 120
 # header = Ayam Sangkur
 # teks = Sengangat sengenget ipun miwasan menek,
-1	Sengangat	_	_	_	_	_	_	_	_
-2	sengenget	_	_	_	_	_	_	_	_
-3	ipun	_	_	_	_	_	_	_	_
+1	Sengangat	sengangat	adj	jj	_	2	compound	_	_
+2	sengenget	sengenget	adj	jj	_	5	amod	_	_
+3	ipun	ipun	_	_	_	_	_	_	_
 4	miwasan	_	_	_	_	_	_	_	_
 5	menek	_	_	_	_	_	_	_	_
 6	,	_	_	_	_	_	_	_	_
