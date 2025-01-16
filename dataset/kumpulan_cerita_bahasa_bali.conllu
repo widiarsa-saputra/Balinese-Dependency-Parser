@@ -84,7 +84,7 @@
 3	katampiang	tampi	verb	vb	Voice=Passive	0	root	_	_
 4	teken	teken	adp	in	_	5	compound	_	_
 5	ane	ane	adp	in	_	6	case	_	_
-6	mupahang	upah	noun	nn	Poss=Yes	8	obj	_	_
+6	mupahang	upah	noun	nn	Poss=Yes	3	obj	_	_
 7	.	.	punct	_	_	3	punct	_	_
 
 # id_kalimat = 7
@@ -277,7 +277,7 @@
 # teks = Sayan liu anake pada kema tur pada ngenehang, 
 1	Sayan	sayan	adv	rb	_	2	advmod	_	_
 2	liu	liu	adj	jj	_	3	amod	_	_
-3	anake	anak	noun	nn	Poss=Yes	10	nsubj	_	_
+3	anake	anak	noun	nn	Poss=Yes	8	nsubj	_	_
 4	pada	pada	adv	rb	_	7	compound	_	_
 5	kema	kema	adv	rb	_	8	advmod	_	_
 6	tur	tur	adp	in	_	9	case	_	_
@@ -302,7 +302,7 @@
 3	makelo	makelo	adj	jj	_	4	amod	_	_
 4	semere	semer	noun	nn	Poss=Yes	7	nsubj	_	_
 5	ento	ento	det	dt	_	4	det	_	_
-6	suba	suba	adv	rb	_	12	advmod	_	_
+6	suba	suba	adv	rb	_	7	advmod	_	_
 7	kedas	kedas	adj	jj	_	0	root	_	_
 8	buka	buka	adp	in	_	9	case	_	_
 9	ibine	ibi	noun	nn	Poss=Yes	7	nmod	_	b-time
@@ -315,7 +315,7 @@
 2	Pan	Pan	propn	nnp	_	3	compound	_	b-per
 3	Karsa	Karsa	propn	nnp	_	4	nsubj	_	i-per
 4	malaib-laib	laib	verb	vb	_	0	root	_	_
-5	tur	tur	adp	in	6	6	case	_	_
+5	tur	tur	adp	in	_	6	case	_	_
 6	ngomong	ngomong	verb	vb	_	4	xcomp	_	_
 7	,	,	punct	_	_	6	punct	_	_
 
@@ -466,7 +466,6 @@
 18	raksasane	raksasa	noun	nn	_	15	appos	_	_
 19	ring	ring	adp	in	_	20	case	_	b-loc
 20	Manimantaka	Manimantaka	propn	nnp	_	13	nmod	_	i-loc
-21	.	_	_	_	_	_	_	_	_ 
 
 # id_kalimat = 43
 # header = Arjuna Nangun Tapa
@@ -1005,7 +1004,6 @@
 1	Tulung	tulung	verb	vb	_	0	root	_	_
 2	patujuin	tuju	verb	vb	_	1	xcomp	_	_
 3	tityang	tiang	pron	prp	_	1	obj	_	_
-4	,	_	_	_	_	_	_	_	_
 
 # id_kalimat = 96
 # header = Ayam Sangkur
