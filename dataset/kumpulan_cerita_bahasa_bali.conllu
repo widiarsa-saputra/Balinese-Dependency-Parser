@@ -25,7 +25,7 @@
 4	sanja	sanja	noun	nn	_	9	nmod	_	b-time
 5	ia	ia	pron	prp	_	9	nsubj	_	_
 6	ajaka	ajaka	adp	in	_	7	case	_	_
-7	dadua	dua	num	cd	_	5	nummod	_	_
+7	dadua	dua	num	cd	_	5	nmod	_	_
 8	tusing	tusing	adv	rb	Polarity=Neg	9	advmod	_	_
 9	mareren	reren	verb	vb	_	0	root	_	_
 10	megae	gae	verb	vb	_	9	obj	_	_
@@ -44,7 +44,7 @@
 # id_kalimat = 3
 # header = Anak Ririh
 # teks = telung dina ia magae tan parerenan,
-1	telung	telu	num	cd	_	2	nummod	_	b-time
+1	telung	telu	num	cd	_	2	nmod	_	b-time
 2	dina	dina	noun	nn	_	4	nmod	_	i-time
 3	ia	ia	pron	prp	_	4	nsubj	_	_
 4	magae	gae	verb	vb	_	0	root	_	_
@@ -66,7 +66,7 @@
 # header = Anak Ririh
 # teks = Buin awai megae pedas ia bakal nampi upah liu.
 1	Buin	buin	adv	rb	_	2	advmod	_	_
-2	awai	wai	num	md	_	3	nummod	_	b-time
+2	awai	wai	num	md	_	3	nmod	_	b-time
 3	megae	gae	verb	vb	_	0	root	_	_
 4	pedas	pedas	adj	jj	_	7	amod	_	_
 5	ia	ia	pron	prp	_	3	nsubj	_	_
@@ -209,7 +209,7 @@
 # teks = Ditu lantas Pan Karsa ngantungan baju muah capilne ditongose ngantungan buka ane suba-suba.
 1	Ditu	ditu	pron	prp	_	5	nmod	_	_
 2	lantas	lantas	adv	rb	_	3	advmod	_	_
-3	Pan	Pan	propn	nnp	_	4	compund	_	_
+3	Pan	Pan	propn	nnp	_	4	compound	_	_
 4	Karsa	Karsa	propn	nnp	_	5	nsubj	_	_
 5	ngantungan	gantung	verb	vb	_	0	root	_	_
 6	baju	baju	noun	nn	_	5	obj	_	_
@@ -238,7 +238,7 @@
 1	Buine	buin	adv	rb	_	6	advmod	_	_
 2	tambahe	tambah	noun	nn	Poss=Yes	6	nsubj	_	_
 3	ane	ane	adp	in	_	4	case	_	_
-4	besikan	besik	num	md	Poss=Yes	5	nummod	_	_
+4	besikan	besik	num	md	Poss=Yes	5	nmod	_	_
 5	bantangne	bantang	noun	nn	Poss=Yes	6	nmod	_	_
 6	tancebange	tanceb	verb	vb	Voice=Passive	0	root	_	_
 7	ka	ka	adp	in	_	8	case	_	_
@@ -683,7 +683,7 @@
 6	widiadarine	widiadari	noun	nn	Poss=Yes	5	obj	_	_
 7	sane	sane	adp	in	_	8	case	_	_
 8	ayu-ayu	ayu	adj	jj	_	6	amod	_	_
-9	pitung	pitu	num	md	_	10	nummod	_	_
+9	pitung	pitu	num	md	_	10	nmod	_	_
 10	diri	diri	noun	nn	_	5	nmod	_	_
 11	,	,	punct	_	_	10	punct	_	_
 
@@ -707,7 +707,7 @@
 # teks = Sadurung widiadarine pitung diri punika mamargi,
 1	Sadurung	durung	adv	rb	_	2	advmod	_	_
 2	widiadarine	widiadari	noun	nn	Poss=Yes	6	nsubj	_	_
-3	pitung	pitu	num	md	_	4	nummod	_	_
+3	pitung	pitu	num	md	_	4	nmod	_	_
 4	diri	diri	noun	nn	_	6	nmod	_	_
 5	punika	punika	det	dt	PronType=Dem	4	det	_	_
 6	mamargi	margi	verb	vb	_	0	root	_	_
@@ -864,7 +864,7 @@
 1	Ipun	ipun	pron	prp	_	2	nsubj	_	_
 2	ngelah	gelah	verb	vb	_	0	root	_	_
 3	banteng	banteng	noun	nn	_	2	obj	_	_
-4	kalih	kalih	num	md	_	5	nummod	_	_
+4	kalih	kalih	num	md	_	5	nmod	_	_
 5	diri	diri	noun	nn	_	2	nmod	_	_
 6	.	.	punct	_	_	2	punct	_	_
 
@@ -926,7 +926,7 @@
 5	pagehan	pageh	noun	nn	Poss=Yes	2	nmod	_	_
 6	abian	abian	noun	nn	_	5	nmod	_	_
 7	ipun	ipun	det	dt	_	5	det	_	_
-8	sami	sami	num	md	_	5	nummod	_	_
+8	sami	sami	num	md	_	5	nmod	_	_
 9	kukuh	kukuh	adj	jj	_	5	amod	_	_
 10	,	,	punct	_	_	9	punct	_	_
 
@@ -958,12 +958,12 @@
 5	wit	wit	noun	nn	_	5	compound	_	_
 6	kepuh	kepuh	propn	nnp	_	4	obj	_	_
 7	ageng	ageng	propn	nnp	_	5	compound	_	_
-8	apuun	puun	num	md	_	5	nummod	_	_
+8	apuun	puun	num	md	_	5	nmod	_	_
 9	miwah	miwah	adp	in	_	10	case	_	_
 10	wit	wit	noun	nn	_	11	compound	_	_
 11	tiying	tiying	noun	nn	_	4	obj	_	_
 12	tigang	tiga	num	md	_	13	compound	_	_
-13	lingseh	lingseh	num	md	_	10	nummod	_	_
+13	lingseh	lingseh	num	md	_	10	nmod	_	_
 14	.	.	punct	_	_	4	punct	_	_
 
 # id_kalimat = 88
@@ -1014,7 +1014,7 @@
 4	panunggun	panunggun	noun	nn	_	5	compound	_	_
 5	kepuh	kepuh	propn	nnp	_	2	iobj	_	_
 6	ketipat	ketipat	noun	nn	_	2	obj	_	_
-7	akelan	kelan	num	md	_	6	nummod	_	_
+7	akelan	kelan	num	md	_	6	nmod	_	_
 8	maulam	ulam	verb	vb	_	2	ccomp	_	_
 9	ayam	ayam	noun	nn	_	8	obj	_	_
 10	.	.	punct	_	_	2	punct	_	_
@@ -1023,7 +1023,7 @@
 # header = Ayam Sangkur
 # teks = Bau asapunika munyin ipun,
 1	Bau	bau	adj	jj	_	0	root	_	_
-2	asapunika	punika	num	md	_	3	nummod	_	_
+2	asapunika	punika	num	md	_	3	nmod	_	_
 3	munyin	munyi	noun	nn	Poss=Yes	1	obj	_	_
 4	ipun	ipun	pron	prp	_	1	nsubj	_	_
 5	,	,	punct	_	_	4	punct	_	_
@@ -1048,7 +1048,7 @@
 2	itunin	itu	noun	nn	Poss=Yes	3	nsubj	_	_
 3	wenten	wenten	verb	vb	_	0	root	_	_
 4	ping	ping	adv	rb	_	5	advmod	_	_
-5	dasa	dasa	num	md	_	6	nummod	_	_
+5	dasa	dasa	num	md	_	6	nmod	_	_
 6	celepin	celep	verb	vb	_	3	ccomp	_	_
 7	ipun	ipun	pron	prp	_	6	nsubj	_	_
 8	irika	irika	pron	prp	_	6	nmod	_	_
@@ -1061,7 +1061,7 @@
 # header = Ayam Sangkur
 # teks = Duaning asapunika raris ipun wangde nenggala.
 1	Duaning	duaning	adp	in	_	2	case	_	_
-2	asapunika	punika	num	md	_	6	nummod	_	_
+2	asapunika	punika	num	md	_	6	nmod	_	_
 3	raris	raris	adv	rb	_	4	advmod	_	_
 4	ipun	ipun	noun	nn	_	6	nsubj	_	_
 5	wangde	wangde	adj	jj	_	6	amod	_	_
